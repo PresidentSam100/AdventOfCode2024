@@ -4,7 +4,7 @@ public class Main
 {
 	public static void main(String[] args) {
 	    Scanner sc = new Scanner(System.in);
-	    int ans = 0;
+	    long ans = 0;
 	    while (sc.hasNextLine()) {
 	        String[] ss = sc.nextLine().split(" ");
 	        int[] s = new int[ss.length];
