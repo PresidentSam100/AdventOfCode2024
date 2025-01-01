@@ -12,7 +12,7 @@ public class Main
 	    }
 	    Collections.sort(a1);
 	    Collections.sort(a2);
-	    int ans = 0;
+	    long ans = 0;
 	    for (int i = 0; i < a1.size(); i++) {
 	        ans += Math.abs(a1.get(i) - a2.get(i));
 	    }
