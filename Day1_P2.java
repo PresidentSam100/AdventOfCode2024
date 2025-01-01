@@ -15,7 +15,7 @@ public class Main
 	            m.put(k, 1);
 	        }
 	    }
-	    int ans = 0;
+	    long ans = 0;
 	    for (int i = 0; i < a.size(); i++) {
 	        int k = a.get(i);
 	        if (m.containsKey(k)) {
