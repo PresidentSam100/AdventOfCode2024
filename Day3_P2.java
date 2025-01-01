@@ -7,7 +7,7 @@ public class Main
 	    Scanner sc = new Scanner(System.in);
 	    long ans = 0;
 	    String pattern = "mul\\(\\d+,\\d+\\)|do\\(\\)|don't\\(\\)";
-    	boolean yes = true;
+    	    boolean yes = true;
 	    while (sc.hasNextLine()) {
     	    String s = sc.nextLine();
     	    Pattern compiled = Pattern.compile(pattern);
